@@ -4,7 +4,7 @@ Companion benchmark archive for the manuscript:
 
 > **Graydon Snider** ([ORCID 0000-0003-2137-7731](https://orcid.org/0000-0003-2137-7731)) (2026). *A Compiled Sequence-Based Selection Hyper-Heuristic for the ROADEF/EURO 2016 Inventory Routing Problem.* Submitted to *Journal of Heuristics*.
 
-Every solution XML in this repository has been independently validated with the organizers' official C# solution checkers (`Challenge_Roadef_EURO_Checker_V1` for Set A; `Challenge_Roadef_EURO_Checker_V2` for Sets B and X), available from the [ROADEF/EURO 2016 Challenge website](https://roadef.org/challenge/2016/en/).
+Every solution XML in this repository has been independently validated with the organizers' official C# solution checkers (`Challenge_Roadef_EURO_Checker_V1` for Set A; `Challenge_Roadef_EURO_Checker_V2` for Sets B and X), available from the [ROADEF/EURO 2016 Instances and Checker page](https://roadef.org/challenge/2016/en/instances.php) on the [official ROADEF/EURO 2016 website](https://roadef.org/challenge/2016/en/).
 
 ## Headline Results & Official ROADEF/EURO 2016 Scoring
 
@@ -95,7 +95,7 @@ Under the official ROADEF/EURO 2016 normalized contest score $\sum_I \bigl(1 - \
 
 ## Independent Verification
 
-Download the official instances and C# checkers from https://roadef.org/challenge/2016/en/ and run:
+Download the official instances and C# solution checkers (`Checker_V1` v1.1 for Set A; `Checker_V2` v2.2 for Sets B and X) from the [ROADEF/EURO 2016 Instances and Checker page](https://roadef.org/challenge/2016/en/instances.php) and run:
 
 ```bash
 # Set A (V1 checker)
